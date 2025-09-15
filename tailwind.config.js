@@ -1,8 +1,8 @@
-import { Content, Outfit, Ovo } from 'next/font/google';
+//import { Content, Outfit, Ovo } from 'next/font/google';
 
 /**@type {import ('tailwindcss').Config} */
 export default {
-  Content: [
+  content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,12 +12,13 @@ export default {
       colors: {
         lightHover: '#fcf4ff',
         darkHover: '#2a004a',
-        darkTheme: '#11001F'
+        darkTheme: '#11001F',
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
         Ovo: ["Ovo", "serif"]
       }
-    }
-  }
-}
+    },
+  },
+  plugins: [],
+};
