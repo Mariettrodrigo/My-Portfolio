@@ -43,9 +43,7 @@ const About = ({isDarkMode}) => {
         transition={{duration: 0.6, delay:0.8}}
         className='flex-1'>
             <p className='mb-10 max-w-2xl font-ovo'>
-                I am an undergraduate in Computing and Information Systems with a strong interest in project management and business analysis. 
-                Along with this, I have a technical background in full-stack development, focusing on front-end and UI/UX design. 
-                My goal is to combine technical expertise with analytical skills to deliver effective solutions.</p>
+                I’m a passionate front-end developer skilled in ReactJS, HTML, CSS, and TailwindCSS, with a strong focus on building responsive and engaging user interfaces. I have contributed to projects such as FixPoint, ReportEase, SkillForge, and BabyCare System, gaining hands-on experience in developing clean, efficient, and user-centered designs. I enjoy learning new technologies and continuously improving my skills to deliver high-quality digital solutions. My goal is to create impactful interfaces that connect people with technology in meaningful ways.</p>
 
             <motion.ul 
             initial={{opacity: 0}}

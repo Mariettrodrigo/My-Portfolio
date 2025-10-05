@@ -30,7 +30,7 @@ const Header = ({isDarkMode}) => {
       whileInView={{opacity:1}}
       transition={{duration: 0.6, delay:0.7}}
       className='max-w-2xl mx-auto font-ovo leading-tight'>
-        I am an undergraduate in Computing and Information Systems with interests in project management and business analysis. I also have technical skills in full-stack development focusing on front-end and UI/UX
+        I’m a front-end developer passionate about crafting responsive and user-friendly web experiences. I focus on turning ideas into modern, intuitive designs.
       </motion.p>
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         

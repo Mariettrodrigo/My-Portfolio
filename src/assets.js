@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -78,23 +78,23 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'SkillForge',
+        description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'ReportEase',
+        description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Baby Care System',
+        description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'FixPoint',
+        description: 'A mobile-based ticket management system for Domino’s Sri Lanka maintenance unit to digitize maintenance process.',
         bgImage: '/work-4.png',
     },
 ]
@@ -107,9 +107,10 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Frameworks & Libraries', description: 'ReactJS, Next.js, TailwindCSS, Bootstrap' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc (Hons) in Computing and Information Systems' }
+    
 ];
 
 export const toolsData = [
