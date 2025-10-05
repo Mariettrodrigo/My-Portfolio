@@ -46,10 +46,42 @@ const Contact = ({isDarkMode}) => {
       <motion.h2 
       initial={{y:-20, opacity: 0}}
       whileInView={{y:0, opacity: 1}}
-      transition={{delay: 0.5, duration: 0.5}}
-      className='text-center text-5xl font-ovo'>Get in touch</motion.h2>
+      transition={{delay: 0.5, duration: 0.7}}
+      className='text-center mb-10 text-5xl font-ovo'>Get in touch</motion.h2>
 
-      <motion.p 
+      <motion.h2 
+      initial={{y:-20, opacity: 0}}
+      whileInView={{y:0, opacity: 1}}
+      transition={{delay: 0.6, duration: 0.5}}
+      className='w-max flex items-center gap-2 mx-auto mb-1'>Marawila, Sri Lanka</motion.h2>
+      
+      
+      <motion.h2 
+      initial={{y:-20, opacity: 0}}
+      whileInView={{y:0, opacity: 1}}
+      transition={{delay: 0.65, duration: 0.5}}
+      className='w-max flex items-center gap-2 mx-auto mb-1'>+94 774554065</motion.h2>
+
+       <motion.div 
+       initial={{y:-20, opacity: 0}}
+       whileInView={{y:0, opacity: 1}}
+       transition={{delay: 0.7, duration: 0.5}}
+       className='w-max flex items-center gap-2 mx-auto mb-1'>
+                  <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='' className='w-6'/>
+                  mariyetavishanthi11@gmail.com
+        </motion.div>
+
+      <motion.ul 
+      initial={{y:-20, opacity: 0}}
+      whileInView={{y:0, opacity: 1}}
+      transition={{delay: 0.75, duration: 0.5}}
+      className='flex items-center gap-10 justify-center sm:mt-0'>
+            <li><a target='_blank' href='https://github.com/Mariettrodrigo'>Github</a></li>
+            <li><a target='_blank' href='https://linkedin.com/in/mariyeta-rodrigo-38a49b299'>LinkedIn</a></li>
+            {/*<li><a target='_blank' href=''>Github</a></li>*/}
+        </motion.ul>
+
+      {/*<motion.p 
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{delay:0.7, duration: 0.5}}
@@ -90,7 +122,7 @@ const Contact = ({isDarkMode}) => {
         type='submit' className={`py-3 px-8 w-max flex items-center justify-between gap-2 rounded-full mx-auto  duration-500 ${isDarkMode ? "bg-transparent border border-white text-white" : "bg-black/80 text-white border-black hover:bg-black"}`}>Submit now <Image src={assets.right_arrow_white} alt='' className='w-4'/></motion.button>
 
         <p className='mt-4'>{result}</p>
-      </motion.form>
+      </motion.form>*/}
     </motion.div>
   )
 }
