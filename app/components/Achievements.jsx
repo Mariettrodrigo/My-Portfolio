@@ -47,8 +47,10 @@ const Achievements = ({isDarkMode}) => {
         >
           <h3 className={`mb-1 text-3xl font-ovo max-w-2xl  ${isDarkMode ? "text-white" : "text-gray-800"}`}>Finalist</h3>
           <p className={`text-lg max-w-2xl ${isDarkMode ? "text-white" : "text-gray-600"}`}>
-            Hack Like a Girl organized by Slavcom
+            Hack Like a Girl 2.0 organized by SLASSCOM
           </p>
+          <a href='https://url-shortener.me/6ITX' className='flex items-center gap-2 text-sm mt-5'>
+            View on LinkedIn <Image alt='' src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} className='w-2'/></a>
         </motion.div>
 
       </motion.div>

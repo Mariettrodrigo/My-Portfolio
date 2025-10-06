@@ -40,6 +40,17 @@ import work2 from './work-2.png';
 import work3 from './work-3.png';
 import work4 from './work-4.png';
 import Ach1 from './Ach-1.png';
+import phone_icon from './phone-icon.png';
+import phone_icon_dark from './phone-icon-dark.png';
+import location_icon from './location_icon.png';
+import location_dark from './location_dark.png';
+import github_dark from './github_dark.png';
+import linkedin_dark from './linkedin_dark.png';
+import github_icon from './github_icon.png';
+import linkedin_icon from './linkedin_icon.png';
+import github2 from './github2.png';
+import linkedin2 from './linkedin2.png';
+
 
 
 export const assets = {
@@ -84,7 +95,17 @@ export const assets = {
     work2,
     work3,
     work4,
-    Ach1
+    Ach1,
+    phone_icon,
+    phone_icon_dark,
+    location_icon,
+    location_dark,
+    linkedin_icon,
+    linkedin_dark,
+    github_dark,
+    github_icon,
+    github2,
+    linkedin2
 };
 
 export const workData = [
@@ -111,9 +132,9 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'SkillForge', description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.', link: '' },
-    { icon: assets.mobile_icon, title: 'ReportEase', description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.', link: '' },
-    { icon: assets.ui_icon, title: 'Baby Care System', description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.', link: '' },
+    { icon: assets.web_icon, title: 'SkillForge', description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.', link: 'https://url-shortener.me/6IS4' },
+    { icon: assets.mobile_icon, title: 'ReportEase', description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.', link: 'https://url-shortener.me/6ISA' },
+    { icon: assets.ui_icon, title: 'Baby Care System', description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.', link: 'https://url-shortener.me/6ISA' },
     { icon: assets.graphics_icon, title: 'FixPonit', description: 'A mobile-based ticket management system for Domino’s Sri Lanka maintenance unit to digitize maintenance process.', link: '' },
 ]
 

@@ -53,20 +53,22 @@ const Contact = ({isDarkMode}) => {
       initial={{y:-20, opacity: 0}}
       whileInView={{y:0, opacity: 1}}
       transition={{delay: 0.6, duration: 0.5}}
-      className='w-max flex items-center gap-2 mx-auto mb-1'>Marawila, Sri Lanka</motion.h2>
+      className='w-max flex items-center gap-2 mx-auto mb-1'>
+        <Image src={isDarkMode ? assets.location_dark : assets.location_icon} alt='' className='w-6'/>Marawila, Sri Lanka</motion.h2>
       
       
       <motion.h2 
       initial={{y:-20, opacity: 0}}
       whileInView={{y:0, opacity: 1}}
       transition={{delay: 0.65, duration: 0.5}}
-      className='w-max flex items-center gap-2 mx-auto mb-1'>+94 774554065</motion.h2>
+      className='w-max flex items-center gap-2 mx-auto mb-1'>
+        <Image src={isDarkMode ? assets.phone_icon_dark : assets.phone_icon} alt='' className='w-6'/>+94 774554065</motion.h2>
 
        <motion.div 
        initial={{y:-20, opacity: 0}}
        whileInView={{y:0, opacity: 1}}
        transition={{delay: 0.7, duration: 0.5}}
-       className='w-max flex items-center gap-2 mx-auto mb-1'>
+       className='w-max flex items-center gap-2 mx-auto mb-2'>
                   <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='' className='w-6'/>
                   mariyetavishanthi11@gmail.com
         </motion.div>
@@ -76,8 +78,10 @@ const Contact = ({isDarkMode}) => {
       whileInView={{y:0, opacity: 1}}
       transition={{delay: 0.75, duration: 0.5}}
       className='flex items-center gap-10 justify-center sm:mt-0'>
-            <li><a target='_blank' href='https://github.com/Mariettrodrigo'>Github</a></li>
-            <li><a target='_blank' href='https://linkedin.com/in/mariyeta-rodrigo-38a49b299'>LinkedIn</a></li>
+            <li><a target='_blank' href='https://github.com/Mariettrodrigo'> 
+            <Image src={isDarkMode ? assets.github_dark : assets.github_icon} alt='' className='w-6'/></a></li>
+            <li><a target='_blank' href='https://linkedin.com/in/mariyeta-rodrigo-38a49b299'>
+            <Image src={isDarkMode ? assets.linkedin_dark : assets.linkedin_icon} alt='' className='w-6'/></a></li>
             {/*<li><a target='_blank' href=''>Github</a></li>*/}
         </motion.ul>
 
