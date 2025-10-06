@@ -43,14 +43,15 @@ const Achievements = ({isDarkMode}) => {
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
           transition={{duration: 0.6, delay:0.8}}
-          className='flex-1 text-center lg:text-left mt-0.2 lg:mt-0'
-        >
+          className='flex-1 text-center lg:text-left mt-4 lg:mt-0'>
+            
           <h3 className={`mb-1 text-3xl font-ovo max-w-2xl  ${isDarkMode ? "text-white" : "text-gray-800"}`}>Finalist</h3>
           <p className={`text-lg max-w-2xl ${isDarkMode ? "text-white" : "text-gray-600"}`}>
             Hack Like a Girl 2.0 organized by SLASSCOM
           </p>
-          <a href='https://url-shortener.me/6ITX' className='flex items-center gap-2 text-sm mt-5'>
-            View on LinkedIn <Image alt='' src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} className='w-2'/></a>
+          <div className='flex justify-center lg:justify-start items-center mt-5'>
+          <a href='https://url-shortener.me/6ITX' className='flex items-center gap-2 text-sm '>
+            View on LinkedIn <Image alt='' src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} className='w-2'/></a></div>
         </motion.div>
 
       </motion.div>

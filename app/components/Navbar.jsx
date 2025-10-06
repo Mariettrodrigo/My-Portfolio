@@ -81,7 +81,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
                     <Image src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt='' className='w-3'/>
                 </a>*/}
 
-                <ul className='flex items-center justify-center sm:mt-0 lg:flex gap-5 px-10 py-2.5 border border-gray-500 rounded-full ml-4'>
+                <ul className='items-center justify-center sm:mt-0 lg:flex hidden gap-5 px-10 py-2.5 border border-gray-500 rounded-full ml-4'>
             <li><a target='_blank' href='https://github.com/Mariettrodrigo'> 
             <Image src={isDarkMode ? assets.github_dark : assets.github2} alt='' className='w-6'/></a></li>
             <li><a target='_blank' href='https://linkedin.com/in/mariyeta-rodrigo-38a49b299'>
