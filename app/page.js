@@ -5,6 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Volunteering from "./components/Volunteering";
 import Contact from "./components/Contact";
+import Achievements from "./components/Achievements";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 
@@ -46,6 +47,7 @@ export default function Home() {
       <About isDarkMode={isDarkMode}/>
       <Projects isDarkMode={isDarkMode}/>
       <Volunteering isDarkMode={isDarkMode}/>
+      <Achievements isDarkMode={isDarkMode}/>
       <Contact isDarkMode={isDarkMode}/>
       {/*<Footer isDarkMode={isDarkMode}/>*/}
     </>

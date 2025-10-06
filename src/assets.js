@@ -39,6 +39,7 @@ import work1 from './work-1.png';
 import work2 from './work-2.png';
 import work3 from './work-3.png';
 import work4 from './work-4.png';
+import Ach1 from './Ach-1.png';
 
 
 export const assets = {
@@ -82,7 +83,8 @@ export const assets = {
     work1,
     work2,
     work3,
-    work4
+    work4,
+    Ach1
 };
 
 export const workData = [
@@ -125,3 +127,4 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+
