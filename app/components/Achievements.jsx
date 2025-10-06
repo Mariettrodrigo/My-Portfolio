@@ -43,10 +43,10 @@ const Achievements = ({isDarkMode}) => {
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
           transition={{duration: 0.6, delay:0.8}}
-          className='flex-1'
+          className='flex-1 text-center lg:text-left mt-0.2 lg:mt-0'
         >
-          <h1 className='mb-1 text-3xl font-ovo'>Finalist</h1>
-          <p className='text-lg max-w-2xl text-gray-700'>
+          <h3 className={`mb-1 text-3xl font-ovo max-w-2xl  ${isDarkMode ? "text-white" : "text-gray-800"}`}>Finalist</h3>
+          <p className={`text-lg max-w-2xl ${isDarkMode ? "text-white" : "text-gray-600"}`}>
             Hack Like a Girl organized by Slavcom
           </p>
         </motion.div>
