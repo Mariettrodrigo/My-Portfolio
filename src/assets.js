@@ -35,6 +35,11 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import work1 from './work-1.png';
+import work2 from './work-2.png';
+import work3 from './work-3.png';
+import work4 from './work-4.png';
+
 
 export const assets = {
     user_image,
@@ -73,37 +78,41 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    work1,
+    work2,
+    work3,
+    work4
 };
 
 export const workData = [
     {
-        title: 'SkillForge',
-        description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.',
-        bgImage: '/work-1.png',
+        title: 'Public Relational Manager',
+        description: 'IEEE WIE Student Branch Affinity Group Sabaragamuwa University of Sri Lanka',
+        bgImage: assets.work1,
     },
     {
-        title: 'ReportEase',
-        description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.',
-        bgImage: '/work-2.png',
+        title: 'University Ambassador',
+        description: 'CodeRally 6.0 organized by Informatics Institute of Technology ',
+        bgImage: assets.work2,
     },
     {
-        title: 'Baby Care System',
-        description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.',
-        bgImage: '/work-3.png',
+        title: 'Program Team Member',
+        description: 'SabraXtream 3.0 - IEEE Student Branch Sabaragamuwa University of Sri Lanka',
+        bgImage: assets.work3,
     },
     {
-        title: 'FixPoint',
-        description: 'A mobile-based ticket management system for Domino’s Sri Lanka maintenance unit to digitize maintenance process.',
-        bgImage: '/work-4.png',
+        title: 'Marketing Team Member',
+        description: 'PearlHack V4.0 - IEEE WIE Student Branch Affinity Group of SUSL',
+        bgImage: assets.work4,
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'SkillForge', description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.', link: '' },
+    { icon: assets.mobile_icon, title: 'ReportEase', description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.', link: '' },
+    { icon: assets.ui_icon, title: 'Baby Care System', description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.', link: '' },
+    { icon: assets.graphics_icon, title: 'FixPonit', description: 'A mobile-based ticket management system for Domino’s Sri Lanka maintenance unit to digitize maintenance process.', link: '' },
 ]
 
 export const infoList = [
