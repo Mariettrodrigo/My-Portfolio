@@ -59,8 +59,8 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
             `}>
                 <li><a className='font-Ovo' href='#top'>Home</a></li>
                 <li><a className='font-Ovo' href='#about'>About me</a></li>
-                <li><a className='font-Ovo' href='#services'>Projects</a></li>
-                <li><a className='font-Ovo' href='#work'>Volunteering</a></li>
+                <li><a className='font-Ovo' href='#projects'>Projects</a></li>
+                <li><a className='font-Ovo' href='#volunteering'>Volunteering</a></li>
                 <li><a className='font-Ovo' href='#achievements'>Achievements</a></li>
                 <li><a className='font-Ovo' href='#contact'>Contact me</a></li>
                 
@@ -104,8 +104,8 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
                 <li><a className='font-Ovo' onClick={closeMenu} href='#top'>Home</a></li>
                 <li><a className='font-Ovo' onClick={closeMenu} href='#about'>About me</a></li>
-                <li><a className='font-Ovo' onClick={closeMenu} href='#services'>Projects</a></li>
-                <li><a className='font-Ovo' onClick={closeMenu} href='#work'>Volunteering</a></li>
+                <li><a className='font-Ovo' onClick={closeMenu} href='#projects'>Projects</a></li>
+                <li><a className='font-Ovo' onClick={closeMenu} href='#vplunteering'>Volunteering</a></li>
                 <li><a className='font-Ovo' onClick={closeMenu} href='#achievements'>Achievements</a></li>
                 <li><a className='font-Ovo' onClick={closeMenu} href='#contact'>Contact me</a></li>
                 

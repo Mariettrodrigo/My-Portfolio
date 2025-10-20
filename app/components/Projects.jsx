@@ -1,15 +1,15 @@
-import { assets, serviceData } from '@/src/assets'
+import { assets, projectData } from '@/src/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from 'motion/react'
 
-const Services = ({isDarkMode}) => {
+const Projects = ({isDarkMode}) => {
   return (
     <motion.div 
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 1}}
-    id='services' className='w-full px-[12%] py-10 scroll-mt-20'>
+    id='projects' className='w-full px-[12%] py-10 scroll-mt-20'>
       
       {/*<motion.h4 
       initial={{opacity: 0, y: -20}}
@@ -35,7 +35,7 @@ const Services = ({isDarkMode}) => {
       whileInView={{opacity: 1}}
       transition={{duration: 0.6, delay:0.9}}
       className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10'> {/*grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4*/}
-           {serviceData.map(({ icon, title, description, link}, index) => (
+           {projectData.map(({ icon, title, description, link}, index) => (
                 
                 <motion.div 
                 whileHover={{scale: 1.05}}
@@ -56,4 +56,4 @@ const Services = ({isDarkMode}) => {
   )
 }
 
-export default Services
+export default Projects

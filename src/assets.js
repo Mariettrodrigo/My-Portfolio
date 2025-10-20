@@ -108,7 +108,7 @@ export const assets = {
     linkedin2
 };
 
-export const workData = [
+export const volunteeringData = [
     {
         title: 'Public Relational Manager',
         description: 'IEEE WIE Student Branch Affinity Group Sabaragamuwa University of Sri Lanka',
@@ -131,7 +131,7 @@ export const workData = [
     },
 ]
 
-export const serviceData = [
+export const projectData = [
     { icon: assets.web_icon, title: 'SkillForge', description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_skillforge-ai-personalizedlearning-activity-7374020585888296960-PXvQ?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
     { icon: assets.mobile_icon, title: 'ReportEase', description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.', link: 'https://github.com/KavinduAluthwaththa/Babycare-Project.git' },
     { icon: assets.ui_icon, title: 'Baby Care System', description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_systemanalysisanddesign-is1234-babycaresystem-activity-7353729717805461504-K3B5?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
