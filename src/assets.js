@@ -132,15 +132,15 @@ export const volunteeringData = [
 ]
 
 export const projectData = [
-    { icon: assets.skillForge_icon, title: 'SkillForge', description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_skillforge-ai-personalizedlearning-activity-7374020585888296960-PXvQ?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
-    { icon: assets.reportEase_icon, title: 'ReportEase', description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.', link: 'https://github.com/KavinduAluthwaththa/Babycare-Project.git' },
-    { icon: assets.babyCare_icon, title: 'Baby Care System', description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_systemanalysisanddesign-is1234-babycaresystem-activity-7353729717805461504-K3B5?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
     { icon: assets.fixpoint_icon, title: 'FixPonit', description: 'A mobile-based ticket management system for Dominos Sri Lanka maintenance unit to digitize maintenance process.', link: 'https://github.com/fixpoint-tech' },
+    { icon: assets.skillForge_icon, title: 'SkillForge', description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_skillforge-ai-personalizedlearning-activity-7374020585888296960-PXvQ?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
+    { icon: assets.reportEase_icon, title: 'ReportEase', description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_laravel-webdevelopment-softwareengineering-activity-7387411365046460416-nakH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
+    { icon: assets.babyCare_icon, title: 'Baby Care System', description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_systemanalysisanddesign-is1234-babycaresystem-activity-7353729717805461504-K3B5?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript' },
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Frameworks & Libraries', description: 'ReactJS, Next.js, TailwindCSS, Bootstrap' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Dart' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Frameworks & Libraries', description: 'ReactJS, Next.js, TailwindCSS, Bootstrap, Flutter' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc (Hons) in Computing and Information Systems' }
     
 ];
