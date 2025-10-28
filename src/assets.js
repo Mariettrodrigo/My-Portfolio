@@ -27,10 +27,10 @@ import menu_black from './menu-black.png';
 import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
-import web_icon from './web-icon.png';
-import mobile_icon from './mobile-icon.png';
-import ui_icon from './ui-icon.png';
-import graphics_icon from './graphics-icon.png';
+import skillForge_icon from './skill-forge.png';
+import reportEase_icon from './report-ease_icon.png';
+import babyCare_icon from './babyCare-icon.png';
+import fixpoint_icon from './fixpoint-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -83,10 +83,10 @@ export const assets = {
     menu_white,
     close_black,
     close_white,
-    web_icon,
-    mobile_icon,
-    ui_icon,
-    graphics_icon,
+    skillForge_icon,
+    reportEase_icon,
+    babyCare_icon,
+    fixpoint_icon,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -132,10 +132,10 @@ export const volunteeringData = [
 ]
 
 export const projectData = [
-    { icon: assets.web_icon, title: 'SkillForge', description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_skillforge-ai-personalizedlearning-activity-7374020585888296960-PXvQ?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
-    { icon: assets.mobile_icon, title: 'ReportEase', description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.', link: 'https://github.com/KavinduAluthwaththa/Babycare-Project.git' },
-    { icon: assets.ui_icon, title: 'Baby Care System', description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_systemanalysisanddesign-is1234-babycaresystem-activity-7353729717805461504-K3B5?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
-    { icon: assets.graphics_icon, title: 'FixPonit', description: 'A mobile-based ticket management system for Dominos Sri Lanka maintenance unit to digitize maintenance process.', link: 'https://github.com/fixpoint-tech' },
+    { icon: assets.skillForge_icon, title: 'SkillForge', description: 'An AI-driven learning platform that generates personalized career roadmaps and guides users through skills and resources.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_skillforge-ai-personalizedlearning-activity-7374020585888296960-PXvQ?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
+    { icon: assets.reportEase_icon, title: 'ReportEase', description: 'A university issue-tracking web based system offering role-based access, image management, and real-time progress tracking.', link: 'https://github.com/KavinduAluthwaththa/Babycare-Project.git' },
+    { icon: assets.babyCare_icon, title: 'Baby Care System', description: 'A web application that helps parents manage newborn vaccination schedules and receive timely healthcare reminders.', link: 'https://www.linkedin.com/posts/mariyeta-rodrigo-38a49b299_systemanalysisanddesign-is1234-babycaresystem-activity-7353729717805461504-K3B5?utm_source=share&utm_medium=member_android&rcm=ACoAAEgnJVoBi5flDmUyH750qLHA1zDK8oK5RxQ' },
+    { icon: assets.fixpoint_icon, title: 'FixPonit', description: 'A mobile-based ticket management system for Dominos Sri Lanka maintenance unit to digitize maintenance process.', link: 'https://github.com/fixpoint-tech' },
 ]
 
 export const infoList = [
