@@ -22,7 +22,7 @@ const Header = ({isDarkMode}) => {
       initial={{y: -30, opacity:0}}
       whileInView={{y:0, opacity:1}}
       transition={{duration: 0.8, delay:0.5}}
-      className='text-3xl sm:text-6xl lg:text-[70px] font-ovo'>Front-End Developer</motion.h1>
+      className='text-3xl sm:text-6xl lg:text-[53px] font-ovo'>IT Project Management & Business Analysis Enthusiast</motion.h1>
       {/*<h2 className='text-3xl sm:text-4xl md:text-[30px] font-Ovo'>with Technical Background</h2>*/}
       
       <motion.p 
@@ -30,7 +30,7 @@ const Header = ({isDarkMode}) => {
       whileInView={{opacity:1}}
       transition={{duration: 0.6, delay:0.7}}
       className='max-w-2xl mx-auto font-ovo leading-tight'>
-        I’m a front-end developer passionate about crafting responsive and user-friendly web experiences. I focus on turning ideas into modern, intuitive designs.
+        A motivated and organized individual with a strong interest in project management, business analysis, and bridging technology with real-world needs.
       </motion.p>
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         

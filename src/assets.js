@@ -50,6 +50,14 @@ import github_icon from './github_icon.png';
 import linkedin_icon from './linkedin_icon.png';
 import github2 from './github2.png';
 import linkedin2 from './linkedin2.png';
+import microsoftsqlserver from './microsoftsqlserver.png';
+import mysql from './mysql.png';
+import excel from './file-type-excel.png';
+import tableau_icon from './tableau-icon.png';
+import  power_bi from './microsoft-power-bi.png';
+import jira from './jira.png';
+import trello from './trello.png';
+import notion from './notion.png';
 
 
 
@@ -105,7 +113,15 @@ export const assets = {
     github_dark,
     github_icon,
     github2,
-    linkedin2
+    linkedin2,
+    microsoftsqlserver,
+    mysql,
+    excel,
+    tableau_icon,
+    power_bi,
+    jira,
+    trello,
+    notion
 };
 
 export const volunteeringData = [
@@ -139,13 +155,26 @@ export const projectData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Dart' },
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Frameworks & Libraries', description: 'ReactJS, Next.js, TailwindCSS, Bootstrap, Flutter' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Project Management Skills', 
+        description: (<>
+            <strong>Agile Practices</strong><br />Scrum, Kanban, Sprint Planning, Backlog Management, Stand-ups, Reviews, Retros
+            <br />
+            <br />
+            <strong>Collaboration & Leadership</strong><br />Team coordination, communication, task organization
+        </>
+    )},
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Data Analysis Skills', 
+        description:  (<>
+            <strong>Technical Skills</strong><br />SQL, DAX, Python
+            <br />
+            <br />
+            <strong>Data Capabilities</strong><br />Data cleaning, interpretation, visualization, reporting
+        </>
+    ) },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc (Hons) in Computing and Information Systems' }
     
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.excel, assets.jira, assets.trello, assets.notion, assets.power_bi, assets.tableau_icon, assets.mysql, assets.vscode, assets.figma, assets.git
 ];
-
