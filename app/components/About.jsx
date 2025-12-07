@@ -38,9 +38,11 @@ const About = ({isDarkMode}) => {
         transition={{duration: 0.6, delay:0.8}}
         className='flex-1'>
             <p className='font-ovo'>
-               I am a motivated and organized individual with strong interests in <strong>IT project management and data analysis</strong>. I enjoy planning and coordinating teamwork, communicating clearly, and keeping projects aligned through Agile practices like Scrum, Kanban, and sprint-based workflows, which I have used in real projects such as FixPoint.
-<br/><br/> Along with project management, I also have a solid foundation in <strong>data analysis</strong>, where I focus on understanding problems, analyzing data, and presenting insights in a simple and meaningful way. I enjoy turning information into clear <strong>visualizations</strong> that support better decision-making.
-As a quick learner and <strong>confident communicator</strong>, my goal is to grow in both project management and data analysis, and contribute to IT projects that solve real-world needs.</p>
+              I am an undergraduate in <strong>Computing and Information Systems</strong> with a strong interest in building meaningful digital solutions. I enjoy exploring how software works, understanding systems, and contributing to projects that solve real problems. My passion lies not only in development, but also in analyzing requirements, improving processes, and ensuring that technology aligns with user and business needs.
+<br/><br/> I am <strong>a quick learner, a confident communicator</strong>, and someone who enjoys both the technical and organizational sides of the IT field. 
+My experience spans <strong>software development, data analysis,</strong> and <strong>project coordination</strong>-allowing me to approach challenges from both a developer’s and a planner’s perspective. 
+I have experience working in <strong>Agile</strong> environments using Jira and sprints-especially through the FixPoint mobile application project built with Flutter and PostgreSQL-alongside strong development skills in <strong>Java, JavaScript, React, Next.js, Node.js</strong>, and <strong>API integration</strong>.
+I work well in teams, stay organized under pressure, and take responsibility for delivering quality results in every project I’m part of.</p>
         </motion.div>
       </motion.div>
 
@@ -56,7 +58,7 @@ As a quick learner and <strong>confident communicator</strong>, my goal is to gr
                 <motion.li 
                 whileHover={{scale:1.05}}
                 className={`border-[0.5px] rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 ${isDarkMode ? "border-white hover:shadow-white" : "border-gray-400 hover:shadow-black"}`} key={index}>
-
+                    <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3'/>
                     <h3 className='my-4 font-semibold text-gray-700'>{title}</h3>
                     <div className={`text-gray-600 text-sm  ${isDarkMode ? "text-white" : ""}`}>{description}</div>
                 </motion.li>

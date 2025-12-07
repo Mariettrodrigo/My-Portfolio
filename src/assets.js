@@ -56,8 +56,10 @@ import excel from './file-type-excel.png';
 import tableau_icon from './tableau-icon.png';
 import  power_bi from './microsoft-power-bi.png';
 import jira from './jira.png';
+import notion from './notion.png'
 import trello from './trello.png';
-import notion from './notion.png';
+import docker_icon from './docker-icon.png';
+import postman from './postman_.png';
 
 
 
@@ -121,7 +123,9 @@ export const assets = {
     power_bi,
     jira,
     trello,
-    notion
+    notion,
+    docker_icon,
+    postman
 };
 
 export const volunteeringData = [
@@ -155,12 +159,11 @@ export const projectData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Project Management Skills', 
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Technical Skills', 
         description: (<>
-            <strong>Agile Practices</strong><br />Scrum, Kanban, Sprint Planning, Backlog Management, Stand-ups, Reviews, Retros
+            <strong>Languages</strong><br />Java, JavaScript, Python, HTML, CSS, Dart<br />
             <br />
-            <br />
-            <strong>Collaboration & Leadership</strong><br />Team coordination, communication, task organization
+            <strong>Frameworks & Libraries</strong><br />React.js, Next.js, Node.js, Express.js, Tailwind CSS, Laravel, Flutter, Bootstrap
         </>
     )},
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Data Analysis Skills', 
@@ -171,10 +174,10 @@ export const infoList = [
             <strong>Data Capabilities</strong><br />Data cleaning, interpretation, visualization, reporting
         </>
     ) },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc (Hons) in Computing and Information Systems' }
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: (<>BSc (Hons) in Computing and Information Systems <br/>Sabaragamuwa University of Sri Lanka</>) }
     
 ];
 
 export const toolsData = [
-    assets.excel, assets.jira, assets.trello, assets.notion, assets.power_bi, assets.tableau_icon, assets.mysql, assets.vscode, assets.figma, assets.git
+     assets.vscode, assets.git, assets.figma, assets.jira, assets.github2, assets.mysql, assets.mongodb, assets.firebase, assets.docker_icon, assets.postman, assets.excel, assets.trello, assets.notion, assets.power_bi, assets.tableau_icon
 ];

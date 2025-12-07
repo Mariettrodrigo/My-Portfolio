@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Achievements from "./components/Achievements";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
+import HeroClient from "./HeroClient";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(undefined);
